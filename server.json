@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "legal.klaro/document-explainer",
+  "title": "klaro.legal Document Explainer",
+  "description": "Explains contracts, letters and tax notices clause by clause in plain language. Not legal advice.",
+  "version": "1.0.0",
+  "websiteUrl": "https://klaro.legal/en-us/embed-widget",
+  "icons": [
+    {
+      "src": "https://klaro.legal/favicon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ],
+      "theme": "light"
+    },
+    {
+      "src": "https://klaro.legal/favicon-dark-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ],
+      "theme": "dark"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://klaro.legal/api/mcp"
+    }
+  ]
+}
