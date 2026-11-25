@@ -81,7 +81,8 @@ the limit comes from, not from the analysis.
 
 ## Privacy
 
-Documents are anonymised before the analysis and processed inside the EU. The
+Names that are detected automatically are masked before the analysis, and
+documents are processed inside the EU. The
 analysis itself runs on AWS Bedrock in Paris (`eu-west-3`); the text is not sent
 to any other AI provider. Details: [klaro.legal/en-us/privacy](https://klaro.legal/en-us/privacy)
 
