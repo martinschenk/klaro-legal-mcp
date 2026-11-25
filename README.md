@@ -13,6 +13,8 @@ this repository holds the public metadata, the server code is not open source.
 https://klaro.legal/api/mcp
 ```
 
+**[Try it in the browser](https://klaro.legal/en-us?utm_source=github)**: upload a document or take a photo, no setup, no account.
+
 Streamable HTTP · no authentication · listed in the
 [official MCP registry](https://registry.modelcontextprotocol.io/v0/servers?search=klaro)
 as `legal.klaro/document-explainer` and as a
